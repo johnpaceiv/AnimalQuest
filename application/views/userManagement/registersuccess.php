@@ -1,0 +1,1 @@
+<div class="alert alert-success">Your rescue <?php echo $_POST["rescueName"];?> has been created. Please login...</div>

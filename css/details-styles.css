@@ -1,0 +1,73 @@
+.profileImg{
+    width: 50%;
+    border-radius: 5px;
+    float: right;
+}
+h2, p{
+    color: #ffa000;
+}
+#callToAction hr{
+    width: 40%;
+    margin: -1% 0 2% 0;
+}
+#bodyContainer{
+    padding: 0 10% 0 10%;
+}
+#clearPanel{
+    clear: both;
+}
+#confirmation{
+    display: none;
+}
+.backBtn{
+    width: 100%;
+}
+#clearTop{
+    clear: both;
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1036px) {
+
+    #bodyContainer{
+        padding: 1% 5% 0 5%;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 779px) {
+    .profileImg{
+        float: none;
+        width: 50%;
+        margin: 0 20% 0 20%;
+    }
+    #bodyContainer{
+        padding: 0;
+    }
+    #callToAction h2{
+        font-size: 3em;
+        border-bottom: 1px solid #ffffff;
+    }
+    #callToAction p{
+        font-size: 1.5em;
+    }
+    #bodyContainer hr{
+        display: none;
+    }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 200px) and (max-width: 426px) {
+    .profileImg{
+        float: none;
+        width: 100%;
+    }
+    #bodyContainer{
+        padding: 0;
+    }
+    #callToAction h2{
+        font-size: 2.75em;
+        border-bottom: 1px solid #ffffff;
+    }
+    #callToAction p{
+        font-size: 1.75em;
+    }
+    #bodyContainer hr{
+        display: none;
+    }
+}

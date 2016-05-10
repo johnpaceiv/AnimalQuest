@@ -1,0 +1,1 @@
+<div class="alert alert-danger" style="text-align: center">There was an error in editing your rescue details. Please try again.</div>

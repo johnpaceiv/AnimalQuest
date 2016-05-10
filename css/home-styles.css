@@ -1,0 +1,122 @@
+#ctaTitle{
+    color: #ffa000;
+    text-align: center;
+}
+#ctaContent{
+    font-size: 1.5em;
+    color: #ffa000;
+}
+#learnMoreModule{
+    display: none;
+    width: 70%;
+}
+#selectHead{
+    color: #ffa000;
+    text-align: center;
+}
+select{
+    color: #000000;
+}
+#select_rescue select{
+    width: 100%;
+}
+#viewListBtn{
+    margin-top: 10px;
+    width: 100%;
+}
+#loginHead{
+    text-align: center;
+}
+#registerHead{
+    text-align: center;
+}
+#register legend{
+    color: #ffa000;
+}
+#register input{
+    margin-bottom: 10px;
+}
+#utilityContent{
+    padding: 0;
+}
+input[type="submit"]{
+    margin-top: 3%;
+}
+#loginUser_input{
+    margin-top: -10px;
+}
+#contactSet{
+    border: 1px solid #ffffff;
+    border-radius: 5px 5px 0 0;
+    padding: 1% 5% 5% 5%;
+}
+#accountSet{
+    border: 1px solid #ffffff;
+    border-radius: 0 0 5px 5px;
+    padding: 1% 5% 5% 5%;
+}
+#register_form, #loginForm{
+    width: 100%;
+}
+#register, #login, #select_rescue{
+    padding: 0 25% 40px 25%;
+}
+#loginElements{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 5%;
+}
+#selectElements{
+    padding: 5%;
+}
+
+
+ /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 0px) and (max-width: 816px) {
+    #ctaTitle{
+        font-size: 2em;
+    }
+    #ctaContent{
+        font-size: 1em;
+    }
+    #utilityTabs{
+        font-size: 1em;
+    }
+    #bodyContainer button, #bodyContainer input[type="submit"]{
+        width: 100%;
+    }
+    #selectHead,#loginHead,#registerHead{
+        font-size: 2em;
+    }
+    #loginSubHead{
+        font-size: 1.5em;
+    }
+    #register legend{
+        font-size: 1.65em;
+    }
+    #register, #login, #select_rescue{
+        padding: 0;
+    }
+    #register input{
+        width: 100%;
+    }
+    #loginElements, #selectElements{
+        border: none;
+    }
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 200px) and (max-width: 426px) {
+    #utilityTabs{
+        font-size: .75em;
+    }
+    #register legend{
+        font-size: 2.25em;
+    }
+    #login label, #register label{
+        font-size: 2em;
+    }
+    #login input, #register input, #register select, #select_rescue select, #select_rescue input{
+        width: 100%;
+        height: 50px;
+    }
+}

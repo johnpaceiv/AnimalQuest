@@ -1,0 +1,137 @@
+/* Logo Styles */
+
+.logo{
+    margin-top: -10px;
+    /*width: 64%;*/
+    width: 200px;
+}
+.mobileLogo{
+    margin-top: -25px;
+    width: 64%;
+}
+
+/* Global Panel Container and Panel Layout */
+
+.global-panel-container{
+    margin: 40px 15% 40px 15%;
+    width: 70%;
+    background-color: #002040;
+}
+.global-panel{
+    padding: 2px 25px 15px 25px;
+}
+.global-panel-container-2-columns{
+    margin: 40px 15% 40px 15%;
+    width: 70%;
+    clear: both;
+}
+.global-panel-2-columns{
+    padding: 2px 25px 15px 25px;
+    background-color: #002040;
+    width: 40%;
+}
+/* Font and Text Based Styling */
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+}
+h1{
+    font-family: 'Archivo Black', sans-serif;
+}
+h2, h3, h4, h5, legend{
+    font-family: 'Cinzel', serif;
+}
+p, label, input{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+input, textarea{
+    color: #000;
+}
+button, input[type="submit"], input[type="reset"]{
+    background: linear-gradient(to bottom, #ffe7c1 0%,#ffa000 50%,#b27000 51%,#b27000 100%) ;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 700;
+    color: #002040;
+    font-size: 2em;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #ffa000;
+}
+footer{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header Styling */
+.current{
+    color: #ffa000;
+}
+
+/* Footer Styles */
+footer{
+    background: linear-gradient(to top, #002040 0%,#0066cc 38%,#0066cc 70%,#0066cc 100%);
+    padding: 10px;
+    clear: left;
+}
+#socialIcons{
+    float: right;
+}
+.socialIcon{
+    width: 25px;
+}
+.footerLink{
+    margin-left: 50px;
+}
+#footerContent{
+    text-align: center;
+    color: #ffa000;
+}
+#footerContent p{
+    margin-left: -85px;
+}
+
+/* NavBar Styling */
+
+.navbar-inverse {
+    background: linear-gradient(to bottom, #002040 0%,#0066cc 38%,#0066cc 70%,#0066cc 100%);
+    border-radius:0;
+    height: 60px;
+    border: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+    margin-top:8px;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:#002040;
+}
+.navbar-inverse .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-header{
+    margin-top: 10px;
+}
+.navbar-inverse .navbar-toggle{
+    background-color: #002040;
+}
+.navbar-inverse .navbar-toggle:active{
+    background-color: #ffaa00;
+}
+/*Mobile Only Style */
+
+@media only screen and (max-width: 768px) {
+    /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+    .navbar-collapse {
+        background: linear-gradient(to top, #002040 0%, #0066cc 38%, #0066cc 70%, #0066cc 100%);
+        border: none;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 816px) {
+    .global-panel-container{
+        margin: 40px 5% 40px 5%;
+        width: 90%;
+        background-color: #002040;
+    }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */

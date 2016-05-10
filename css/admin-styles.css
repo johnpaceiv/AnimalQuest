@@ -1,0 +1,153 @@
+#ctaTitle{
+    color: #ffa000;
+    text-align: center;
+}
+#ctaContent{
+    font-size: 1.5em;
+    color: #ffa000;
+}
+#ctaContainer{
+    clear: right;
+}
+#utilityContentPanel1{
+    margin-right: 10%;
+    float: left;
+}
+#utilityContentPanel2{
+    margin-left: 10%;
+    float: right;
+}
+#floatClear{
+    clear: both;
+}
+#footer{
+    clear: both;
+}
+.subUtilityTitle{
+    text-align: center;
+    color: #ffa000;
+}
+#newFriendTitle{
+    text-align: center;
+    color: #ffa000;
+}
+#utilityContainer button{
+    width: 100%;
+}
+#edit_rescue_form legend{
+    color: #ffa000;
+}
+#edit_rescue_form select{
+    color: #000000;
+}
+#edit_rescue_form input{
+    margin-bottom: 10px;
+}
+#edit_rescue_form td{
+    width: 49%;
+    padding: 1%;
+    vertical-align: top;
+}
+#edit_rescue_form table{
+    width: 100%;
+}
+#newFriendContainer{
+    padding: 0 10% 20px 10%;
+}
+textarea{
+    width: 100%;
+}
+
+#awayFromHome legend, #energyLevel legend, #bioLabel legend, #imgLabel legend{
+    color: #ffa000;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#awayFromHome label{
+    margin-left: 5px;
+    color: #ffa000;
+}
+
+#newFriend input{
+    margin-bottom: 10px;
+}
+#newFriend label{
+    color: #ffa000;
+}
+input[type="file"]{
+    color: #ffa000;
+}
+#mainInput{
+    display: block;
+}
+#mainInput li{
+    margin-left: -40px;
+    list-style: none;
+}
+#bioLabel legend, #imgLabel legend{
+    margin-bottom: 2%;
+}
+#imgLabel{
+    margin-bottom: 5%;
+}
+#newFriendForm{
+    margin-top: 5%;
+    padding: 1% 5% 5% 5%;
+    border: 2px inset #ffa000;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+    #utilityContainer{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #newFriend label{
+        padding-top: 2%;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    #newFriend legend{
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    #utilityContentPanel1, #utilityContentPanel2{
+        width: 100%;
+    }
+    #utilityContentPanel1{
+        margin-bottom: 40px;
+    }
+    #bodyContainer button, input[type="submit"], input[type="text"], input[type="tel"], textarea{
+        width: 100%;
+        height: 50px;
+    }
+    #energyLevel input[type="radio"], #energyLevel label, #awayFromHome input[type="radio"], #awayFromHome label{
+        margin-bottom: 5%;
+    }
+    #energyLevel legend, #awayFromHome legend{
+        margin-bottom: 2.5%;
+    }
+    #energyLevel label, #awayFromHome label{
+        margin-left: 2%;
+    }
+    #newFriendContainer{
+        padding: 0;
+    }
+    #mainInput{
+        display: inline;
+    }
+    #mainInput li{
+        margin-left: 0;
+    }
+    #energyLevel label, #awayFromHome label{
+        color: #ffa000;
+    }
+    #newFriendForm{
+        margin: 0;
+        padding: 1%;
+        border: none;
+    }
+}

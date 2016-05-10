@@ -1,0 +1,160 @@
+#ctaTitle{
+    text-align: center;
+}
+#callToAction{
+    color: #ffa000;
+}
+#callToAction h1{
+    margin-bottom: 20px;
+}
+#ctaContent{
+    font-size: 1.5em;
+    color: #ffa000;
+}
+#ctaContainer{
+    clear: right;
+}
+#searchPanel{
+    width: 17%;
+}
+#floatClear{
+    clear: both;
+}
+#footer{
+    clear: both;
+}
+
+#awayFromHome legend, #energyLevel legend, #searchPanel legend{
+    color: #ffffff;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+#searchPanel label{
+    margin-left: 5px;
+    color: #ffa000;
+}
+
+#animalName{
+    width: 100%;
+    margin-top: 5px;
+}
+
+#listContainer{
+    margin: 40px 15% 40px 15%;
+}
+
+#searchPanel{
+    background-color: #002040;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+}
+
+#resultTable{
+    float: right;
+    width: 80%;
+}
+.result{
+    width: 30%;
+    padding: 0 2% 2% 2%;
+    border: 2px outset black;
+    border-radius: 10px;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+.result:nth-child(3n+3){
+    margin-right: 0;
+}
+.resultTitle{
+    font-family: "Archivo Black";
+    margin-top: 10px;
+}
+.resultImg{
+    width: 90%;
+}
+#clearPanel{
+    clear: both;
+}
+#spinner{
+    width: 100%;
+}
+.ui-spinner-button{
+    background-color: #ffa000;
+}
+#resetBtn{
+    width: 100%;
+}
+
+@media only screen and (min-width: 816px) and (max-width: 1131px) {
+    #resultTable{
+        width: 70%;
+    }
+    #searchPanel{
+        width: 30%;
+    }
+    .result{
+        width: 45%;
+        margin-left: 1%;
+    }
+    #noResults{
+        width: 99%;
+        margin-left: 1%;
+    }
+    #energyLevel input[type="radio"], #energyLevel label, #awayFromHome input[type="radio"], #awayFromHome label{
+        margin-bottom: 5%;
+    }
+    #energyLevel legend, #awayFromHome legend{
+        margin-bottom: 2.5%;
+    }
+    #energyLevel label, #awayFromHome label{
+        margin-left: 2%;
+    }
+    #energyLevel label, #awayFromHome label{
+        color: #ffa000;
+    }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 0px) and (max-width: 816px) {
+    #resultTable{
+        width: 100%;
+    }
+    #searchPanel{
+        width: 100%;
+        margin-right: 2%;
+        margin-bottom: 40px;
+    }
+    #searchPanel select, #searchPanel input[type="text"]{
+        width: 100%;
+        height: 50px;
+    }
+    #searchPanel label{
+        font-size: 2em;
+    }
+    .result{
+        width: 45%;
+    }
+    .result h3{
+        font-size: 1em;
+    }
+    #searchPanel label{
+        padding-top: 2%;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    #searchPanel legend{
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    #bodyContainer button, input[type="submit"], input[type="text"], input[type="tel"], textarea{
+        width: 100%;
+        height: 50px;
+    }
+    #energyLevel label, #awayFromHome label{
+        color: #ffa000;
+    }
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
